@@ -13,7 +13,7 @@ const Footer = () => {
           viewport={{ once: true }}
         >
           <p>&copy; {new Date().getFullYear()} Darshik Shekhada. All rights reserved.</p>
-          <p className="mt-2">Designed with ❤️ by Darshik</p>
+          <p className="mt-2">Designed  by Darshik</p>
         </motion.div>
       </Container>
     </footer>
