@@ -3,14 +3,15 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FaGithub, FaLinkedin, FaEnvelope, FaDownload, FaArrowRight } from 'react-icons/fa';
 import { personalInfo } from '../data/portfolioData';
 import { motion } from 'framer-motion';
-// import ParticleBackground from './ParticleBackground';
-// import ParticleBackground from './ParticleBackground';
-import ParticleBackground from './ParticleBackground'
+import ParticleBackground from './ParticleBackground';
+
+
+
 
 const Hero = () => {
   return (
     <section id="home" className="hero-section">
-      <ParticleBackground />
+     <ParticleBackground/>
       <Container className="h-100">
         <Row className="align-items-center h-100">
           <Col lg={8} className="mx-auto text-center">
