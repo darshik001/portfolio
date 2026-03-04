@@ -32,7 +32,7 @@ const Header = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.5 }}
           >
-            Darshik<span className="text-primary">.</span>
+            Darshik<span className="brand-logo-dot">.</span>
           </motion.span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">

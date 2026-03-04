@@ -21,6 +21,7 @@ const Hero = () => {
               transition={{ duration: 0.8 }}
             >
               <span className="hero-subtitle mb-3 d-inline-block">Welcome to my portfolio</span>
+              
               <h1 className="hero-title">
                 Hi, I'm <span className="gradient-text">{personalInfo.name}</span>
               </h1>
@@ -90,10 +91,10 @@ const Hero = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1, duration: 0.5 }}
               >
-                <Button variant="primary" size="lg" className="hero-btn me-3">
+                <a href='https://drive.google.com/file/d/1ve2tN7NS3pplYxGQPYrXlb3B3bfhORDK/view?usp=drive_link'target='_blank' variant="primary" size="lg" className="hero-btn btn me-3 mb-3 mb-sm-0">
                   <FaDownload className="me-2" /> Download Resume
-                </Button>
-                <Button variant="outline-primary" size="lg" className="hero-btn-outline" href="#contact">
+                </a>
+                <Button variant="outline-primary" size="lg" className="hero-btn-outline mb-3 mb-sm-0" href="#contact">
                   Contact Me <FaArrowRight className="ms-2" />
                 </Button>
               </motion.div>

@@ -1,3 +1,6 @@
+// import feanaImage from "./assets/projectImage/Feane-project.ong"
+import feanaImage from "../assets/projectImage/Feaneproject.png"
+
 export const personalInfo = {
   name: "Darshik Shekhada",
   title: "Full Stack Developer",
@@ -30,11 +33,11 @@ export const education = [
 export const projects = [
   {
     name: "E-Commerce Platform",
-    description: "A full-stack e-commerce platform with user authentication, product management, and payment integration.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Redux"],
-    github: "https://github.com/darshik001/ecommerce-project",
-    live: "https://ecommerce-demo.com",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    description: "A responsive e-commerce website UI built using HTML and Bootstrap, featuring product listings, shopping cart layout, and modern user interface design.",
+    technologies: ["HTML", "BOOTSTRAP"],
+    github: "https://github.com/darshik001/FRONTEND/tree/main/PROJECT/BT-PROJECT/FOOD-SHOP",
+    live: "https://maruti-hotel-and-booking.netlify.app/",
+    image: feanaImage
   },
   {
     name: "Task Management App",
@@ -83,4 +86,4 @@ export const certifications = [
   }
 ];
 
-export const interests = ["Coding", "Reading Tech Blogs", "Problem Solving", "Open Source", "Gaming", "Photography"];
+export const interests = ["Coding", "Reading Tech Blogs", "Problem Solving", "Open Source"];
