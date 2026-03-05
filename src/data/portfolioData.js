@@ -1,9 +1,9 @@
 // import feanaImage from "./assets/projectImage/Feane-project.ong"
-import feanaImage from "../assets/projectImage/Feaneproject.png"
-import juliaImage from "../assets/projectImage/julia-Project.png"
-import coronaImage from "../assets/projectImage/corona-api-Project.png"
-import WeatherImage from"../assets/projectImage/Weather-api-project.png"
-import MovieImage from"../assets/projectImage/Movie-project.png"
+import feanaImage from "../assets/projectImage/feane-project.png"
+import juliaImage from "../assets/projectImage/julia-project.png"
+import coronaImage from "../assets/projectImage/corona-api-project.png"
+import WeatherImage from"../assets/projectImage/weather-api-project.png"
+import MovieImage from"../assets/projectImage/movie-project.png"
 import AdminImage from"../assets/projectImage/admin-project.png"
 export const personalInfo = {
   name: "Darshik Shekhada",
