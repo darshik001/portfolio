@@ -1,6 +1,10 @@
 // import feanaImage from "./assets/projectImage/Feane-project.ong"
 import feanaImage from "../assets/projectImage/Feaneproject.png"
-
+import juliaImage from "../assets/projectImage/julia-Project.png"
+import coronaImage from "../assets/projectImage/corona-api-Project.png"
+import WeatherImage from"../assets/projectImage/Weather-api-project.png"
+import MovieImage from"../assets/projectImage/Movie-project.png"
+import AdminImage from"../assets/projectImage/admin-project.png"
 export const personalInfo = {
   name: "Darshik Shekhada",
   title: "Full Stack Developer",
@@ -31,37 +35,54 @@ export const education = [
 ];
 
 export const projects = [
+   {
+    name: "julia-portfolio-morden",
+    description: "Julia Portfolio is a clean and modern personal portfolio website designed to showcase skills, projects, and professional achievements. It features a responsive design, smooth navigation, and an elegant layout that highlights creativity and professionalism.",
+    technologies: ["HTML","CSS"],
+    github: "https://github.com/darshik001/FRONTEND/tree/main/PROJECT/CSS-PROJECT/PORTFOLIO-JULIA-CSS",
+    live: "https://julia-portfolio-morden.netlify.app/",
+    image: juliaImage
+  },
   {
-    name: "E-Commerce Platform",
-    description: "A responsive e-commerce website UI built using HTML and Bootstrap, featuring product listings, shopping cart layout, and modern user interface design.",
+    name: "Fast Food Restaurant",
+    description: "Speedy Spoon is a customer-focused fast food restaurant offering quick, tasty, and budget-friendly meals. Our menu includes burgers, hot dogs, fries, soft drinks, and desserts. We aim to serve high-quality food with minimal waiting time, making it the perfect choice for students, working professionals, and families.",
     technologies: ["HTML", "BOOTSTRAP"],
     github: "https://github.com/darshik001/FRONTEND/tree/main/PROJECT/BT-PROJECT/FOOD-SHOP",
     live: "https://maruti-hotel-and-booking.netlify.app/",
     image: feanaImage
   },
+ 
   {
-    name: "Task Management App",
-    description: "A responsive task management application with drag-drop functionality and real-time updates.",
-    technologies: ["React", "Context API", "Node.js", "Express", "MongoDB"],
-    github: "https://github.com/darshik001/task-manager",
-    live: "https://taskmanager-demo.com",
-    image: "https://images.unsplash.com/photo-1540350394557-8d14678e7f91?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-  },
-  {
-    name: "Weather Dashboard",
-    description: "A weather application that shows real-time weather data using external API integration.",
-    technologies: ["React", "JavaScript", "CSS3", "Weather API"],
-    github: "https://github.com/darshik001/weather-app",
+    name: "COVID-19 Info",
+    description: "COVID-19 Info (India) is a web-based application that allows users to enter a specific date and view COVID-19 statistics for India. The system displays confirmed cases, recoveries, and deaths based on the selected date. It provides a simple and user-friendly interface to quickly access accurate historical COVID-19 data for India.",
+    technologies: ["HTML", "CSS","Bootstrap","JavaScript"],
+    github: "https://github.com/darshik001/FRONTEND/tree/main/PROJECT/JS-PROJECT/corona%20api",
     live: "https://weather-demo.com",
-    image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    image: coronaImage
   },
   {
-    name: "Portfolio Website",
-    description: "A responsive personal portfolio website built with modern React and Bootstrap.",
-    technologies: ["React", "Bootstrap", "EmailJS", "React Icons"],
-    github: "https://github.com/darshik001/portfolio",
-    live: "https://darshik-portfolio.com",
-    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+    name: "Weather Website",
+    description: "Weather Website is a responsive web application that provides real-time weather updates for any city. Users can search by location to view current temperature, humidity, wind speed, and weather conditions. The website features a clean design, fast performance, and an easy-to-use interface for accurate and instant weather information.",
+    technologies: ["HTML", "CSS","Bootstrap","JavaScript"],
+    github: "https://github.com/darshik001/FRONTEND/tree/main/PROJECT/JS-PROJECT/weather%20api",
+    live: "https://weather-city-name.netlify.app/",
+    image:WeatherImage
+  },
+    {
+    name: "Movie Wbsite",
+    description: "A movie website shows information about movies like trailers, cast, ratings, and release dates. It helps users discover and stay updated with the latest films.",
+    technologies: [ "Bootstrap","Rect Js","Firebase"],
+    github: "https://github.com/darshik001/react-exam/tree/main/Movie%20Library",
+    live: "https://cinehubmovie.netlify.app/",
+    image:MovieImage
+  },
+   {
+    name: "Admin Panel Server",
+    description: "This server hosts the administrative control panel used to manage system settings, users, and application data. Authorized administrators can log in to perform management tasks such as monitoring system activity, configuring services, and maintaining database records. Login Credentials Username: john@test.inPassword: 12345",
+    technologies: [ "Node Js","Express Js","Mongodb"],
+    github: "https://github.com/darshik001/react-exam/tree/main/Movie%20Library",
+    live: "https://shreeji-admin.onrender.com",
+    image:AdminImage
   }
 ];
 
