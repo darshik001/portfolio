@@ -78,12 +78,12 @@ export const projects = [
   },
    {
     name: "Admin Panel Server",
-    description: "This server hosts the administrative control panel used to manage system settings, users, and application data. Authorized administrators can log in to perform management tasks such as monitoring system activity, configuring services, and maintaining database records. Login Credentials Username: john@test.inPassword: 12345",
+    description: "This server hosts the administrative control panel used to manage system settings, users, and application data. Authorized administrators can log in to perform management tasks such as monitoring system activity, configuring services, and maintaining database records. Login Credentials Username: john@test.in Password: 12345",
     technologies: [ "Node Js","Express Js","Mongodb"],
-    github: "https://github.com/darshik001/react-exam/tree/main/Movie%20Library",
+    github: "https://github.com/darshik001/Shreeji-Admin",
     live: "https://shreeji-admin.onrender.com",
     image:AdminImage
-  }
+  },
 ];
 
 export const certifications = [

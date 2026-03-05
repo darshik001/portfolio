@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Modal } from 'react-bootstrap';
 import { motion, AnimatePresence } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt, FaTimes } from 'react-icons/fa';
-import { projects } from '../data/portfolioData';
+import { FaGithub, FaExternalLinkAlt, FaTimes, FaLinkedin } from 'react-icons/fa';
+import { personalInfo, projects } from '../data/portfolioData';
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState(null);
@@ -92,6 +92,7 @@ const Projects = () => {
               </Modal.Footer>
             </Modal>
           )}
+
         </AnimatePresence>
       </Container>
     </section>
