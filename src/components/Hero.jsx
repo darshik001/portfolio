@@ -91,7 +91,7 @@ const Hero = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1, duration: 0.5 }}
               >
-                <a href='https://drive.google.com/file/d/1ve2tN7NS3pplYxGQPYrXlb3B3bfhORDK/view?usp=drive_link'target='_blank' variant="primary" size="lg" className="hero-btn btn me-3 mb-3 mb-sm-0">
+                <a href='https://drive.google.com/file/d/1vMw0Y1YQmkd8iBkHuTvCImd0sSz3ScHm/view?usp=drive_link'target='_blank' variant="primary" size="lg" className="hero-btn btn me-3 mb-3 mb-sm-0">
                   <FaDownload className="me-2" /> Download Resume
                 </a>
                 <Button variant="outline-primary" size="lg" className="hero-btn-outline mb-3 mb-sm-0" href="#contact">
